@@ -1,0 +1,167 @@
+
+html, body * { box-sizing: border-box; font-family: 'Open Sans', sans-serif; }
+
+body {
+
+    background-color: lightblue;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+
+    padding-bottom: 100px;
+    text-align: center;
+    color: #130a89;
+}
+
+.frame {
+    height: 530px;
+    width: 430px;
+    background:
+            linear-gradient(
+                    rgba(35,43,85,0.75),
+                    rgba(35,43,85,0.95)),
+            url(bgimg.png) no-repeat center center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 1px rgba(255,255,255,.5);
+    border-radius: 8px;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: all .5s ease;
+    text-align: center;
+    color: aquamarine;
+}
+
+.frame-text{
+    text-align: left;
+    font-size: 18px;
+}
+.frame-result{
+    text-align: left;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #2ab5dd;
+}
+
+.content-body{
+    width: 430px;
+    height: 130px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 55px;
+    transition: opacity .5s ease, transform .5s ease;
+}
+
+.text-styling {
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.2);
+    color: lightblue;
+}
+select{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.2);
+    color: white;
+
+}
+
+option{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.2);
+    color: white;
+}
+span{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff
+}
+
+label {
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: rgba(255,255,255,.7);
+    display: block;
+}
+
+:focus {outline: none;
+}
+
+
+.btn-cal {
+    float: left;
+    padding-top: 8px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -8px;
+}
+
+.btn-animate {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(255,255,255, 1);
+    padding-top: 8px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    background-color: rgba(16,89,255, 1);
+    left: 0px;
+    top: 0px;
+    transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s;
+}
+
+.btn-animate-grow {
+    width: 130%;
+    height: 625px;
+    position: relative;
+    left: -55px;
+    top: -420px;
+    color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,1);
+}
+
+a.btn-signup:hover, a.btn-signin:hover {
+    cursor: pointer;
+    background-color: #0F4FE6;
+    transition: background-color .5s;
+}
+
+
+
+
+
+
+
+
+
+/* refresh button styling */
